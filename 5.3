@@ -1,0 +1,34 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _5._4c
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+           
+                
+                Stack my_stack = new Stack();
+
+               
+                my_stack.Push("hari");
+                my_stack.Push("haritha");
+                my_stack.Push('h');
+                my_stack.Push(null);
+                my_stack.Push(123);
+                my_stack.Push(490.98);
+
+               
+                foreach (var elem in my_stack)
+                {
+                    Console.WriteLine(elem);
+                }
+            }
+        }
+    }
+    
